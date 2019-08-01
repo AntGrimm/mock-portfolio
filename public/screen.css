@@ -9,31 +9,97 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(10, 10, 10);
 }
 
-.main-header {
+div {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.top-header {
   display: flex;
   background-image: url(./images/space.png);
+}
+
+.speech-bubble {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  border-radius: 1%;
+  color: rgb(17, 16, 16);
+  background-color: rgba(255, 255, 255, 0.753);
+  margin-top: 3rem;
+  margin-left: 1rem;
+  opacity: rgba(255, 255, 255, 0.774);
+}
+
+header > article > h1 {
+  margin-bottom: -0.5rem;
 }
 
 .face-pic {
   display: flex;
-  width: 50%;
+  width: 12rem;
+  height: auto;
+  border-radius: 1%;
+  margin-left: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
 }
 
-.four-images {
+.four-image-section {
   display: flex;
   background-image: url(./images/space.png);
   justify-content: center;
-  align-content: space-between;
+  align-content: space-around;
+  list-style: none;
+}
+
+.four-image {
+  display: flex;
+  justify-content: center;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.bottom-half {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 1, 31);
+}
+
+.react-section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1%;
+  background-color: rgba(255, 255, 255, 0.822);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .react-header {
   display: flex;
   justify-content: center;
-  object-fit: fill;
-  width: 55rem;
-  height: 11rem;
+  background-image: url(./images/react.png);
+  height: 5rem;
+  background-position: center;
+}
+
+.fizz-section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1%;
+  background-color: rgba(255, 255, 255, 0.822);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.fizz-header {
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/code.png);
+  height: 5rem;
 }
 
 .twitter-section {
@@ -45,20 +111,28 @@ body {
 .twitter-section > h1 {
   display: flex;
   justify-content: center;
+  color: whitesmoke;
+  margin-top: 5rem;
 }
 
 .twitter-logo-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .twitter-logo {
   display: flex;
   padding: 1rem;
+  justify-content: center;
+  width: 4rem;
   border-radius: 50%;
 }
 
 .twitter-section > footer {
   display: flex;
   justify-content: center;
+  color: whitesmoke;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
 }

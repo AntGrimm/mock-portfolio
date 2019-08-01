@@ -8,24 +8,55 @@
     <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <main>
-      <header class="main-header">
+    <div>
+      <header class="top-header">
         <img class="face-pic" src="./images/face-picture.jpg" alt="face" />
+        <article class="speech-bubble">
+          <h1>Hi, I'm Anthony L Grimm!</h1>
+          <p>I'm a Jr. Front End Engineer in St. Petersburg, FL.</p>
+        </article>
       </header>
-      <section class="four-images">
-        <img src="./images/one-list-sliced.png" alt="one list" />
-        <img src="./images/make-it-rain-sliced.png" alt="make it rain" />
-        <img src="./images/bomb-sniffer-sliced.png" alt="bomb sniffer" />
-        <img src="./images/sensei-sense-sliced.png" alt="sensei sense" />
-      </section>
-      <section>
-        <header class="react-header">
-          <img src="images/react.png" alt="react" />
-        </header>
+      <ul class="four-image-section">
+        <li>
+          <img
+            class="four-image"
+            src="./images/one-list-sliced.png"
+            alt="one list"
+          />
+        </li>
+        <li>
+          <img
+            class="four-image"
+            src="./images/make-it-rain-sliced.png"
+            alt="make it rain"
+          />
+        </li>
+        <li>
+          <img
+            class="four-image"
+            src="./images/bomb-sniffer-sliced.png"
+            alt="bomb sniffer"
+          />
+        </li>
+        <li>
+          <img
+            class="four-image"
+            src="./images/sensei-sense-sliced.png"
+            alt="sensei sense"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="bottom-half">
+      <section class="react-section">
+        <header class="react-header"></header>
         <article class="react-article">
           <h2>
-            Hello, React. December 6th, 2017
+            Hello, React.
           </h2>
+          <blockquote>
+            December 6th, 2017
+          </blockquote>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
             atque cum. Voluptatum eveniet, dolore incidunt, laudantium tempore
@@ -40,6 +71,9 @@
             Keep Reading
           </footer>
         </article>
+      </section>
+      <section class="fizz-section">
+        <header class="fizz-header"></header>
         <article>
           <h2>
             Fizz Buzz November 15th, 2017
@@ -92,6 +126,6 @@
           Guild.
         </footer>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
