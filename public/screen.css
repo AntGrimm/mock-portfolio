@@ -10,3 +10,55 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.main-header {
+  display: flex;
+  background-image: url(./images/space.png);
+}
+
+.face-pic {
+  display: flex;
+  width: 50%;
+}
+
+.four-images {
+  display: flex;
+  background-image: url(./images/space.png);
+  justify-content: center;
+  align-content: space-between;
+}
+
+.react-header {
+  display: flex;
+  justify-content: center;
+  object-fit: fill;
+  width: 55rem;
+  height: 11rem;
+}
+
+.twitter-section {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.twitter-section > h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter-logo-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.twitter-logo {
+  display: flex;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.twitter-section > footer {
+  display: flex;
+  justify-content: center;
+}
