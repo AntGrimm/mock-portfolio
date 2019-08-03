@@ -10,11 +10,13 @@
   <body>
     <div>
       <header class="top-header">
-        <img class="face-pic" src="./images/face-picture.jpg" alt="face" />
-        <article class="speech-bubble">
-          <h1>Hi, I'm Anthony L Grimm!</h1>
-          <p>I'm a Jr. Front End Engineer in St. Petersburg, FL.</p>
-        </article>
+        <section class="pic-and-speech-bubble">
+          <img class="face-pic" src="./images/face-picture.jpg" alt="face" />
+          <blockquote class="speech-bubble">
+            <h1>Hi, I'm Anthony L Grimm!</h1>
+            <p>I'm a Jr. Front End Engineer in St. Petersburg, FL.</p>
+          </blockquote>
+        </section>
       </header>
       <ul class="four-image-section">
         <li>
@@ -51,12 +53,14 @@
       <section class="react-section">
         <header class="react-header"></header>
         <article class="react-article">
-          <h2>
-            Hello, React.
-          </h2>
-          <blockquote>
-            December 6th, 2017
-          </blockquote>
+          <header class="react-article-header">
+            <h2>
+              Hello, React.
+            </h2>
+            <blockquote>
+              December 6th, 2017
+            </blockquote>
+          </header>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
             atque cum. Voluptatum eveniet, dolore incidunt, laudantium tempore
@@ -68,16 +72,21 @@
             Nostrum.
           </p>
           <footer>
-            Keep Reading
+            KEEP READING
           </footer>
         </article>
       </section>
       <section class="fizz-section">
         <header class="fizz-header"></header>
-        <article>
-          <h2>
-            Fizz Buzz November 15th, 2017
-          </h2>
+        <article class="fizz-article">
+          <header class="fizz-article-header">
+            <h2>
+              Fizz Buzz
+            </h2>
+            <blockquote>
+              November 15th, 2017
+            </blockquote>
+          </header>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in
             quidem veniam saepe velit, eum quasi vitae ipsum sed explicabo
@@ -88,7 +97,7 @@
             mollitia quos similique id odio aliquam quis.
           </p>
           <footer>
-            Keep Reading
+            KEEP READING
           </footer>
         </article>
       </section>
